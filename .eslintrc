@@ -1,0 +1,15 @@
+{
+    "extends": ["airbnb-typescript", "prettier"],
+    "plugins": ["prettier"],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "rules": {
+        "prettier/prettier": "error",
+        "import/prefer-default-export": "off",
+        "react/prop-types": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
+        "react/jsx-props-no-spreading": "off"
+    }
+}
